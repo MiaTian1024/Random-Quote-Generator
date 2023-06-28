@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:rgb(241, 229, 212);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(255, 253, 250);
+    padding:30px 35px;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0.01);
+    width:850px;
+}
+
+.wrapper header{
+    font-size: 50px;
+    font-weight: 600;
+    padding:30px 0;
+}
+
+.content .quote-area{
+    display: flex;
+    font-size: 24px;
+}
+
+.content .author{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-style: italic;
+}
